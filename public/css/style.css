@@ -6,11 +6,23 @@ body {
   font-family: Arial, Helvetica, sans-serif; 
   background-color: lightgray;
 }
-.content section {
+.content {
+    max-width: 90vw;
+    margin: auto;
+}
+.content section.biography {
     background-color: white;
     margin: 15px;
     border-radius: 5px;
     padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.content section.achievements {
+    background-color: white;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 img {
     border: 1px solid black;
@@ -29,4 +41,7 @@ header, footer {
     text-align: center;
     padding: 10px;
     color: white;
+}
+header h1 {
+    font-size: 30px;
 }
